@@ -28,7 +28,7 @@ function App() {
       console.log(response.data)
     }
     getData()
-   }, [])
+   }, [])  
 
    useEffect(() => {
     navigate('/')
